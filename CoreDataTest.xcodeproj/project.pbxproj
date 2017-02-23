@@ -15,6 +15,7 @@
 		C645EE4B1E5E9A330020925B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C645EE491E5E9A330020925B /* LaunchScreen.storyboard */; };
 		C645EE561E5E9A330020925B /* CoreDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C645EE551E5E9A330020925B /* CoreDataTestTests.m */; };
 		C645EE611E5E9A330020925B /* CoreDataTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C645EE601E5E9A330020925B /* CoreDataTestUITests.m */; };
+		C645EE701E5EAC240020925B /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C645EE6F1E5EAC240020925B /* CoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C645EE5C1E5E9A330020925B /* CoreDataTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C645EE601E5E9A330020925B /* CoreDataTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestUITests.m; sourceTree = "<group>"; };
 		C645EE621E5E9A330020925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C645EE6E1E5EAC240020925B /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		C645EE6F1E5EAC240020925B /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C645EE3F1E5E9A330020925B /* AppDelegate.m */,
 				C645EE411E5E9A330020925B /* ViewController.h */,
 				C645EE421E5E9A330020925B /* ViewController.m */,
+				C645EE6E1E5EAC240020925B /* CoreDataManager.h */,
+				C645EE6F1E5EAC240020925B /* CoreDataManager.m */,
 				C645EE441E5E9A330020925B /* Main.storyboard */,
 				C645EE471E5E9A330020925B /* Assets.xcassets */,
 				C645EE491E5E9A330020925B /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				C645EE431E5E9A330020925B /* ViewController.m in Sources */,
 				C645EE401E5E9A330020925B /* AppDelegate.m in Sources */,
+				C645EE701E5EAC240020925B /* CoreDataManager.m in Sources */,
 				C645EE3D1E5E9A330020925B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				C645EE671E5E9A330020925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C645EE681E5E9A330020925B /* Build configuration list for PBXNativeTarget "CoreDataTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				C645EE6A1E5E9A330020925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C645EE6B1E5E9A330020925B /* Build configuration list for PBXNativeTarget "CoreDataTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				C645EE6D1E5E9A330020925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
